@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .header{
+        margin: 3vh;
+    }
+    .content{
+        margin: 3vh;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1;
+        grid-template-areas: 
+        "top" 
+        "left" 
+        "right" 
+        "bottom";
+    }
+}
